@@ -1,0 +1,66 @@
+/* Calendar container */
+.calendar-container {
+  background-color: #E1EAF2;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  
+  margin: 1% 3% 3% 10%;
+}
+
+/* Title */
+.calendar-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Grid layout for days */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.2rem;
+  text-align: center;
+  font-size: 0.800rem;
+  margin-bottom: 1rem;
+}
+
+.calendar-day-name {
+  color: #4b5563; /* gray-600 */
+}
+
+/* Individual calendar day */
+.calendar-day {
+  padding: 0.20rem 0;
+  border-radius: 0.5rem;
+}
+
+/* Highlight specific day (e.g., 26th) */
+.calendar-day-highlight {
+  background-color: #417bc5;
+  padding: 5px; 
+  border-radius: 30%;/* blue-100 */
+}
+
+/* Appointment list section */
+.appointment-list {
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
+  justify-content: space-around;
+}
+
+/* Appointment cards */
+.appointment-card {
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+}
+
+/* Specific appointment colors */
+.appointment-blue {
+  background-color: #C1C1E3;
+}
+
+.appointment-purple {
+  background-color: #C1C1E3;
+}

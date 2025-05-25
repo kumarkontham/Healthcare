@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header'; // Import
 import Sidebar from './components/sidebar';
 import Dashboard from './components/Dashboard';
+import Mainview from './components/mainview';
 function App() {
   return (
     <div class='main'>
@@ -12,7 +13,7 @@ function App() {
         <Sidebar />
       
       <div>
-        <Dashboard />
+        <Mainview />
       </div>
       </div>
     </div>
