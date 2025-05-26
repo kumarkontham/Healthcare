@@ -1,11 +1,12 @@
 /* Calendar container */
 .calendar-container {
-  background-color: #E1EAF2;
+  width: 500px;
+  background-color: #f8fcff;
   padding: 1rem;
   border-radius: 1rem;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   
-  margin: 1% 3% 3% 10%;
+  margin: 10% 3% 0% 3%;
 }
 
 /* Title */
@@ -58,9 +59,9 @@
 
 /* Specific appointment colors */
 .appointment-blue {
-  background-color: #C1C1E3;
+  background-color: #eaeafa;
 }
 
 .appointment-purple {
-  background-color: #C1C1E3;
+  background-color: #f7f7ff;
 }

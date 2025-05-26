@@ -1,10 +1,11 @@
 .sidebar {
   width: 200px;
-  height: 70vh;
+  height: 100vh;
   background-color: #ffffff;
   padding: 20px;
   display: flex;
   flex-direction: column;
+  flex-grow:inherit;
   justify-content: space-between;
   font-family: 'Segoe UI', sans-serif;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);

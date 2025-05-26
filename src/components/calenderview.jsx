@@ -3,7 +3,7 @@ import '../styles/calender.css';
 import tooth from '../assets/tooth.png';
 function Calenderview(){  //calender function
     return (
-        <div className="calendar-container" style={{height:"auto" ,width:"400px"}}>
+        <div className="calendar-container" style={{height:"auto" ,width:"450px"}}>
   <h2 className="calendar-title">May 2025</h2>
   <div className="calendar-grid">
     {[...Array(7)].map((_, i) => (

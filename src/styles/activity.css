@@ -1,0 +1,52 @@
+.activity-feed {
+  background-color: #f8fcff;
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.activity-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 6px;
+}
+
+.activity-subtitle {
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.bar-chart {
+    width: 350px;
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  height: 100px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.bar {
+  width: 20px;
+  background-color: #6366f1;
+  border-radius: 6px;
+  transition: height 0.3s ease-in-out;
+}
+
+.bar-labels {
+    width: 350px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.bar-label {
+  font-size: 0.85rem;
+  color: #6b7280;
+  width: 10px;
+  text-align: center;
+}

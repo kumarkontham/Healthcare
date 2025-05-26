@@ -3,6 +3,8 @@ import '../styles/Header.css';
 import profile from '../assets/profile.png';
 import search from '../assets/search_icon.png'
 import notification from '../assets/notification.png'
+import plus from '../assets/plus.png'
+
 
 function Header() {
   return (
@@ -15,7 +17,7 @@ function Header() {
       <div class="headericons" style={{justifyContent:'space-between'}}>
          <img src={notification} alt="" class='notif' /> 
         <img src={profile}  alt="User Avatar" className="avatar" />
-        <button className="add-button" style={{height:"35px", width:"35px", background:"black",color:"white",borderRadius:"5px"}}>+</button>
+        <img src={plus} alt=""  style={{width:"36px"}} />
       </div>
     </header>
   );

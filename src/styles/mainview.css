@@ -1,9 +1,17 @@
-.grid{
-display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  grid-template-rows: repeat(2, auto);   /* 2 rows */
-  gap: 1rem;                              /* spacing between items */
-  padding: 1rem;
-  
-  gap: 20px;
+.maingrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  .maingrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .maingrid {
+    grid-template-columns: repeat(2, 1fr); /* Or use 3fr if 3 columns needed */
+  }
 }
